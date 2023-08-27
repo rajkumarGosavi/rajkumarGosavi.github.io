@@ -1,6 +1,7 @@
 ---
 title: "About"
 description: "Information about the author"
+disableShare: true
 ---
 
 ## Hi Rajkumar here,
