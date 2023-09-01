@@ -45,6 +45,8 @@ This does not require an extra memory allocation as needed for the next solution
 **Time complexity: O(nlogn) (sorting takes O(nlogn), iteration takes O(n))**  
 **Space complexity: O(1)**
 
+**Code:** 
+
 ```go
 func sortString(w string) string {
     s := strings.Split(w, "")
