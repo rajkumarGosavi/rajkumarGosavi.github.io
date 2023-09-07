@@ -2,7 +2,7 @@
 title: "Valid Anagram"
 date: "2023-08-28"
 description: "Leet code solution note for `valid anagram` problem"
-tags: [basic, data structure, hash map, introduction]
+tags: [easy, data structure, hash map, introduction]
 ShowCodeCopyButtons: true
 ---
 

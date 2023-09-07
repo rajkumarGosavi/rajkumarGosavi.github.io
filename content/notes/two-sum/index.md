@@ -2,7 +2,7 @@
 title: "Two sum"
 date: "2023-08-31"
 description: "Leet code solution note for `Two sum` problem"
-tags: [basic, data structure, hash map, introduction]
+tags: [easy, data structure, hash map, introduction]
 ShowCodeCopyButtons: true
 ---
 
