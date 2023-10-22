@@ -70,7 +70,7 @@ params:
       - name: Posts
         url: posts
       - name: Practice Notes
-        url: notes
+        url: practice
       - name: About
         url: about
       - name: Tags
@@ -123,9 +123,9 @@ menu:
       name: posts
       url: /posts
       weight: 1
-    - identifier: notes
-      name: notes
-      url: /notes
+    - identifier: practice
+      name: practice
+      url: /practice
       weight: 2
     - identifier: about
       name: about

@@ -124,6 +124,6 @@ func getKey(s string) string {
 Interestingly this frequency counting has a whole different level of applications, you can check [Frequency Analysis](https://en.wikipedia.org/wiki/Frequency_analysis) for more details.
 
 To see how to know whether 2 strings are anagrams of each other checkout 
-[Valid Anagrams](/notes/valid-anagram)
+[Valid Anagrams](/practice/valid-anagram)
 
 Thank you for reading through, let me know if you have any feedback. You can always reach out to me on [@rajkumarGosavi](https://twitter.com/rajkumarGosavi) .
