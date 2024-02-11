@@ -8,8 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: 
-  ID: G-PZXGYJMP7P
+googleAnalytics: G-PZXGYJMP7P
 
 minify:
   disableXML: true
