@@ -1,3 +1,8 @@
-{{- define "main" }}
-<div class="not-found">404</div>
-{{- end }}{{/* end main */ -}}
+{{ define "header" }}{{ partials.Include "page-header.html" . }}{{ end }}
+{{ define "main" }}
+    <article class="center cf pv5 measure-wide-l">
+      <h1>
+        This is not the page you were looking for
+      </h1>
+    </article>
+{{ end }}

@@ -113,4 +113,4 @@ func twoSum(nums []int, target int) []int {
 }
 ```
 
-Thank you for reading through, let me know if you have any feedback. You can always reach out to me on [@rajkumarGosavi](https://twitter.com/rajkumarGosavi) .
+Thank you for reading through, let me know if you have any feedback.
