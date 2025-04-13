@@ -34,6 +34,10 @@ recent_posts_number = 3
 #     url = "/"
 #     weight = 3
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]
