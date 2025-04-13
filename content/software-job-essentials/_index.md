@@ -3,6 +3,7 @@ title: "Software Job Essentials Series"
 date: "2024-01-09"
 slug: "software-job-essentials"
 tags: [engineering, job, career]
+draft: true
 ---
 
 ## Introduction

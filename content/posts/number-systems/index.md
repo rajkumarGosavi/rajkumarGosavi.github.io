@@ -152,9 +152,7 @@ In this post, we have revised the number systems. In the next post, we will see 
 
 Here is a PDF with detailed examples and some additional concepts
 
-{{< a href="Number_Systems_1.pdf" download="download" target="_blank">}}
-Number Systems
-{{< /a >}}
+[Number_Systems.pdf](Number_Systems_1.pdf)
 
 Do share your feedback by contacting me.
 
