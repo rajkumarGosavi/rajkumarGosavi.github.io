@@ -1,6 +1,6 @@
 ---
 title: "Embracing 'Share By Communicating' in Go"
-date: "2024-02-10"
+date: "2025-04-14"
 slug: "share-by-communicating-1"
 tags: [concurrency, channel, golang]
 ---
