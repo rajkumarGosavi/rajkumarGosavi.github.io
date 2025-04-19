@@ -1,6 +1,6 @@
 ---
 title: "Wrapping Goroutines to Handle Return Values in Go"
-date: "2025-04-20"
+date: "2025-04-19"
 slug: "wrapping-goroutines-return-values"
 tags: [golang, concurrency, goroutines, error-handling, synchronization]
 draft: false
