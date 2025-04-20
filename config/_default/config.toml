@@ -40,6 +40,12 @@ recent_posts_number = 3
     url = "/readings"
     weight = 3
 
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 4
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
