@@ -20,9 +20,14 @@ This page contains my readings and technical learning resources for tracking pro
 
 ---
 ### Software Engineering
-- **[The Pragmatic Programmer: From Journeyman to Master](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer)**
+
+#### [The Pragmatic Programmer: From Journeyman to Master](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer)
 
 Changes your mindset and software engineering.
+
+#### [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.goodreads.com/book/show/3735293-clean-code)
+
+It was a good read, do not use this in real life. Understanding the thought process is enough. Lots of outdated stuff in it.
 
 ---
 
