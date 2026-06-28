@@ -41,6 +41,12 @@ recent_posts_number = 3
     weight = 3
 
   [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects"
+    weight = 3
+
+  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about"
