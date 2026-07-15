@@ -35,7 +35,7 @@ An offline-first personal finance tracker for Indian investors — every rupee s
 
 ## What it is
 
-Suvarix tracks your whole net worth in one place — **9 asset classes** (equity, mutual funds, FDs, PPF/EPF, gold, crypto, bonds, real estate, insurance), income & expenses, loans & credit cards — and does the India-specific maths for you: **STCG / LTCG capital gains**, net-worth history, allocation, and a 0–100 **Financial Health Score**.
+Suvarix tracks your whole net worth in one place — **9 asset classes** (equity, mutual funds, FDs, PPF/EPF, gold, crypto, bonds, real estate, insurance), income & expenses, loans & credit cards, net-worth history, allocation, and a 0–100 **Financial Health Score**.
 
 - 🇮🇳 **Built for India** — ₹ Cr/L formatting, Indian tax rules, Indian brokers.
 - 🔌 **Pull your holdings** — connect Zerodha, Upstox, or Angel One; import MF Central CAS / Groww CSV / bank statements (HDFC, ICICI).
