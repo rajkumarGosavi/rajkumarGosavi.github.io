@@ -180,3 +180,31 @@ Everything sits behind a master password. Auto-lock, encrypted backups, and opti
 ---
 
 <p align="center"><sub>Suvarix is provided "as is", without warranty. Not financial, tax, or investment advice. © 2026.</sub></p>
+
+<style>
+.lb-overlay{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,.88);padding:2vmin;cursor:zoom-out;}
+.lb-overlay.open{display:flex;}
+.lb-overlay img{max-width:96vw;max-height:96vh;width:auto;height:auto;border-radius:8px;box-shadow:0 12px 48px rgba(0,0,0,.6);}
+.lb-overlay .lb-close{position:fixed;top:14px;right:20px;font-size:34px;line-height:1;color:#fff;opacity:.8;font-family:sans-serif;}
+img[src*="shot-"]{cursor:zoom-in;transition:opacity .15s ease;}
+img[src*="shot-"]:hover{opacity:.85;}
+</style>
+
+<script>
+(function(){
+  var shots = document.querySelectorAll('img[src*="shot-"]');
+  if(!shots.length) return;
+  var ov = document.createElement('div');
+  ov.className = 'lb-overlay';
+  ov.innerHTML = '<span class="lb-close" aria-hidden="true">&times;</span><img alt="">';
+  document.body.appendChild(ov);
+  var big = ov.querySelector('img');
+  function open(src, alt){ big.src = src; big.alt = alt || ''; ov.classList.add('open'); document.body.style.overflow = 'hidden'; }
+  function close(){ ov.classList.remove('open'); document.body.style.overflow = ''; }
+  shots.forEach(function(im){
+    im.addEventListener('click', function(){ open(im.currentSrc || im.src, im.alt); });
+  });
+  ov.addEventListener('click', close);
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') close(); });
+})();
+</script>
