@@ -6,6 +6,9 @@ enableRobotsTXT = true
 SectionPagesMenu = "main"
 recent_posts_number = 3
 
+# Temporarily exclude the practice section from the build.
+ignoreFiles = ['content/practice/']
+
 [pagination]
   pagerSize = 3
 
@@ -28,11 +31,12 @@ recent_posts_number = 3
     url = "/posts"
     weight = 2
   
-  [[menu.main]]
-    identifier = "practice"
-    name = "Practice"
-    url = "/"
-    weight = 3
+  # Temporarily hidden along with the practice content section.
+  # [[menu.main]]
+  #   identifier = "practice"
+  #   name = "Practice"
+  #   url = "/"
+  #   weight = 3
 
   [[menu.main]]
     identifier = "readings"
@@ -58,6 +62,8 @@ recent_posts_number = 3
 
 [markup]
   [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
     [markup.goldmark.extensions]
       [markup.goldmark.extensions.passthrough]
         enable = true
