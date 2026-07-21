@@ -23,9 +23,13 @@ Drop in a multi-gigabyte JSON or NDJSON file and browse it in a fast, virtualize
 
 ---
 
-## Why it exists
+## Why this project was needed
 
-Most editors try to load the whole document into memory before showing you anything, so a 1 GB JSON file either takes minutes or crashes the tab. JSON Explorer **indexes the file in place** — it scans the byte offsets of every container once, then reads only the slice you're looking at. Even 1 GB+ files open in seconds, and memory stays flat no matter how big the file is.
+Working with data means constantly running into JSON files that are too big to open — an API dump, a database export, a log of NDJSON events. Every obvious tool falls over: the text editor freezes, the browser tab crashes, `jq` gets you a slice but not a way to *browse*, and "online JSON viewers" are a non-starter for anything sensitive or large. The usual workaround is writing a throwaway script just to peek at the shape of the data — which is a lot of friction for a question as simple as "what's actually in this file?"
+
+The core problem is that almost every viewer tries to parse the entire document into memory before showing you a single line. That works fine at a few megabytes and collapses at a few gigabytes.
+
+JSON Explorer takes the opposite approach: it **indexes the file in place**. It scans the byte offsets of every container once, then reads only the slice you're actually looking at. Even 1 GB+ files open in seconds, memory stays flat no matter how big the file is, and nothing ever leaves your machine — so you can point it at a huge production export and just *look*.
 
 - 🗂️ **Handles huge files** — millions of containers indexed in seconds; 33 M+ indexed in ~5.6 s.
 - 📄 **JSON & NDJSON** — drag-and-drop, browse for a file, or paste JSON directly.
